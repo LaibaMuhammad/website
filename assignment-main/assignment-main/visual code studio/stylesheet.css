@@ -1,0 +1,387 @@
+body{
+    margin: 0 !important;
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 10px 10px 8px #888888;
+    height: 50px;
+    
+}
+.links:hover{
+    color: grey;
+}
+.container{
+    max-width: 100%;
+    box-shadow: 10px 10px 8px #888888;
+    z-index: 22;
+}
+.logo{
+    width: 10vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width:7rem;
+    height: 3rem;
+}
+.links{
+    color: blue;
+    width: 40vw;
+    height: 100%;
+    /*border:1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:2rem; 
+
+}
+.search{
+    width: 20vw;
+    height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black*/
+    color: black;
+
+}
+.input output{
+    width: 100px;
+    background-color:grey;
+    color: antiquewhite;
+    border: none;
+    height: 20px;
+}
+.icon{
+    background-color: grey;
+    border-left: 1px solid grey;
+    /* padding:5px;  */
+    height: 22px;
+    width: 21px;
+}
+.icon i{
+    margin: 5px;
+    /* height: 10px;*/
+    font-size: 12px;
+    /* border-left: 1px solid grey;*/
+    border-radius: 100px;
+    
+}
+.sign{
+    /* border: 1px solid black;*/
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cart{
+    width: 10vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+       background-image: url(./hero4.png);
+       margin-top:3px;
+       background-size:cover;
+       height: 100vh;
+       width: 100vw;
+       display: flex;
+       background-position:center right 35%;
+       background-repeat: no-repeat;
+       top: 0;
+       right: 0;
+       left: 0;
+       padding-left: 20px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.trade{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.value{
+    font-size: 35px;
+    font-size: 700;
+    letter-spacing: 5px;
+    color: blue;
+}
+.products{
+    font-size:45px;
+    font-weight:800;
+    letter-spacing:10px;
+    color:rgba(137, 206, 206);
+    color: red;
+}
+.subject{
+    padding-top:250px;
+    padding-left:50px;
+}
+.boxes{
+    height:20vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+     /*border:1px solid black;*/
+}
+.child{
+    width:150px;
+    height:150px;
+    text-align:center;
+    box-shadow:10px 10px 5px gray;
+    /*border:1px solid black;*/
+}
+.feature{
+     margin-top: 40px;
+     text-align: center;
+     background-color:whitesmoke;
+    
+}
+.feature p{
+    color:grey;
+    font-size: 1rem;
+    margin-top: 3px;
+}
+.feature h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    color:black;
+    font-weight: bold;
+}
+.cards-1{
+    margin-top: 2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.card{
+    width: 20rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 4px #888888;
+}
+.card img{
+    width: 90%;
+    background-color: white;
+    padding: .4rem;
+}
+.image{
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 2rem;
+}
+.text{
+    padding: 10px 20px;
+}
+.text h2{
+    color: black;
+}
+.text p{
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.ratings{
+    height: 5vh;
+    margin-left:11px;
+    /*border:1px solid red;*/
+    padding-top: 0px;
+    color: rgb(218, 165, 32);
+    font-weight: 800;
+    padding:8px;
+}
+.baskitt{
+    display: flex;
+}
+.amount{
+    height: 5vh;
+    margin-left:200px;
+    /*border:1px solid red;*/
+    padding-top: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    padding:2px;
+    margin-bottom:px;
+    justify-content: right;
+    
+}
+.carts{
+    height: 5vh;
+    margin-left:-50px;
+    /*border:1px solid red;*/
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    padding:2px;
+    margin-bottom:px;
+}
+.tbanner{
+    text-align: center;
+    margin-top: 3rem;
+    background-image: url(b1.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.crazy-deals{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 4rem;
+}
+.crazy-deals div{
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 20px;
+    font-size: 1.4rem;
+    gap: 1rem;
+    text-transform: capitalize;
+}
+.crazy-deals button{
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.crazy-deals>:nth-child(1){
+    background-image:url(b10.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.crazy-deals>:nth-child(1) button:hover{
+    background-color: green;
+}
+.crazy-deals>:nth-child(2){
+    background-image:url(b17.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.crazy-deals>:nth-child(2) button:hover{
+    background-color: orange;
+}
+
+.season-sale{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.season-sale div{
+    width: 26rem;
+    height: 28rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 20px;
+    border: none;
+    
+}
+.season-sale div>:nth-child(2){
+    color: red;
+}
+.season-sale>:nth-child(1){
+    background-image: url(b7.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.season-sale>:nth-child(2){
+    background-image: url(b4.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}
+.season-sale>:nth-child(3){
+    background-image: url(b18.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;  
+}
+
+.signup{
+    background-color: blue;
+    
+}
+.signup .sub{
+    margin-top: 2rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+} 
+.signup .txt{
+    margin-left: 40px;
+}
+.signup .txt p{
+    padding-top: 10px;
+}
+.signup .form{
+    padding-right: 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: white;
+    height: 3rem;
+    width: 32rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.signup .form button{
+    height: 4rem;
+    width: 7rem;
+    background-color: aqua;
+    padding: none;
+    margin: none;
+    margin-right: -20px;
+    border: none;
+}
+.signup .form input{
+    height: 100%;
+    padding: 10px;
+    width: 28rem;
+    border: none;
+    outline: none;
+}
+.baskitt{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
